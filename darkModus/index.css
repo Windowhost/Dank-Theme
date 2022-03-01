@@ -1,0 +1,32 @@
+body{
+    border: 5px solid orange;
+    height: 100vh;
+    background: rgb(167, 166, 138);
+}
+
+.title{
+    width: 60%;
+    margin: auto;
+    background: rgb(164, 200, 248);
+    text-align: center;
+}
+
+/* Dark Theme Button styles */
+.dark-theme-btn{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: rgb(31, 23, 23);
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+
+.dark-theme-btn:hover{
+    color: rgb(31, 23, 23);
+    background: #fff;
+}
+
+.dark-mode{
+    background: rgb(31, 23, 23);
+    color: rgb(165, 255, 81);
+}
